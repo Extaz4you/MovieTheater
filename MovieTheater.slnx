@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/MovieTheater.Core/">
+    <Project Path="MovieTheater.Core.Repository/MovieTheater.Core.Repository.csproj" />
+  </Folder>
+  <Folder Name="/MovieTheater.Service/" />
+</Solution>
