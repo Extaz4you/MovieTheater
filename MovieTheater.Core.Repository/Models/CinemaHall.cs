@@ -13,15 +13,3 @@ public class CinemaHall
 }
 
 
-public enum HallType
-{
-    [Display(Name = "Standard (64 места)")]
-    Standard = 64,
-    [Display(Name = "VIP (32 места)")]
-    VIP = 32,
-    [Display(Name = "IMAX (24 места)")]
-    IMAX = 24,
-    [Display(Name = "Kids (16 мест)")]
-    Kids = 16
-}
-

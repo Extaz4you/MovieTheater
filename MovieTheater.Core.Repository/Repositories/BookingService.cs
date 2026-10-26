@@ -1,4 +1,5 @@
 ﻿using MovieTheater.Core.Repository.Data;
+using MovieTheater.Core.Repository.Models;
 
 namespace MovieTheater.Core.Repository.Repositories;
 
@@ -11,11 +12,11 @@ public class BookingService
         database = movieTheaterDatabase;
     }
 
-    public async Task<int> MakeReservation()
+    public async Task<Ticket?> MakeReservation()
     {
         return default;
     }
-    public async Task<int> CancelReservation()
+    public async Task<Ticket?> CancelReservation()
     {
         return default;
     }
